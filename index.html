@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <!-- ========== Start navbar  ========== -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#" class="logo">USMAN</a>
+        <div class="nav-links">
+          <a href="#services">Services</a>
+          <a href="#works">Works</a>
+          <a href="#explore">Explore</a>
+          <a href="#skills">Skills</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="mobile-menu-btn">☰</button>
+      </div>
+    </nav>
+    <!-- ========== End navbar  ========== -->
+
+    <!-- ========== Start hero section ========== -->
+    <section class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1>I am Usman</h1>
+          <h2 class="hero-title">Web Developer +<br />UX Designer</h2>
+          <p class="hero-description">
+            I break down complex user experience problems to<br />
+            create intuitively focused solutions that connect <br />
+            millions of people.
+          </p>
+          <div class="cta-container">
+            <a href="#" class="download-btn">Download CV →</a>
+          </div>
+          <div class="social-links">
+            <a href="#" aria-label="LinkedIn"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="#" aria-label="Github"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="#" aria-label="facebook"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="#" aria-label="Instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="images/profilepic.png" alt="Profile Image" />
+        </div>
+      </div>
+    </section>
+    <!-- ========== End hero section ========== -->
+
+    <!-- ========== Start counter section ========== -->
+    <section class="section">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header" id="counter-header">
+          <h2 class="section-title">Achievements</h2>
+          <p class="section-description">
+            Numbers that define my journey in creating impactful digital
+            experiences
+          </p>
+        </div>
+
+        <!-- Counter Grid -->
+        <div class="counter-grid">
+          <!-- Projects Completed -->
+          <div class="gradient-border counter-card">
+            <div class="counter-card-content">
+              <div class="counter-icon">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+                  />
+                </svg>
+              </div>
+              <h3 class="counter-value" data-target="124">0</h3>
+              <p class="counter-label">Projects Completed</p>
+            </div>
+          </div>
+
+          <!-- Happy Clients -->
+          <div class="gradient-border counter-card">
+            <div class="counter-card-content">
+              <div class="counter-icon">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5"
+                  />
+                </svg>
+              </div>
+              <h3 class="counter-value" data-target="98">0</h3>
+              <p class="counter-label">Happy Clients</p>
+            </div>
+          </div>
+
+          <!-- Hours of Work -->
+          <div class="gradient-border counter-card">
+            <div class="counter-card-content">
+              <div class="counter-icon">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </div>
+              <h3 class="counter-value" data-target="12456">0</h3>
+              <p class="counter-label">Hours of Work</p>
+            </div>
+          </div>
+
+          <!-- Awards Won -->
+          <div class="gradient-border counter-card">
+            <div class="counter-card-content">
+              <div class="counter-icon">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                  />
+                </svg>
+              </div>
+              <h3 class="counter-value" data-target="15">0</h3>
+              <p class="counter-label">Awards Won</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End counter section ========== -->
+
+    <!-- ========== Start services section ========== -->
+    <section class="container">
+      <!-- Section Header -->
+      <div class="section-header" id="services-header">
+        <span class="section-label">What I Do Best</span>
+        <h2 class="section-title">My Quality Services</h2>
+        <p class="section-description">
+          Transforming ideas into exceptional digital experiences with
+          creativity and precision
+        </p>
+      </div>
+
+      <!-- Services Grid -->
+      <div class="services-grid" id="services-grid">
+        <!-- Branding Design -->
+        <div class="magnetic-wrap">
+          <div class="magnetic-area"></div>
+          <div class="service-card">
+            <div class="service-content">
+              <div class="service-number">01</div>
+              <div class="service-icon">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
+                  />
+                </svg>
+              </div>
+              <h3 class="service-title">Branding Design</h3>
+              <p class="service-description">
+                Creating powerful brand identities that leave lasting
+                impressions and connect with your target audience on a deeper
+                level.
+              </p>
+              <div class="progress-line"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- UI/UX Design -->
+        <div class="magnetic-wrap">
+          <div class="magnetic-area"></div>
+          <div class="service-card">
+            <div class="service-content">
+              <div class="service-number">02</div>
+              <div class="service-icon">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"
+                  />
+                </svg>
+              </div>
+              <h3 class="service-title">UI/UX Design</h3>
+              <p class="service-description">
+                Crafting intuitive interfaces and seamless user experiences that
+                delight and engage your audience.
+              </p>
+              <div class="progress-line"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Web Development -->
+        <div class="magnetic-wrap">
+          <div class="magnetic-area"></div>
+          <div class="service-card">
+            <div class="service-content">
+              <div class="service-number">03</div>
+              <div class="service-icon">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                  />
+                </svg>
+              </div>
+              <h3 class="service-title">Web Development</h3>
+              <p class="service-description">
+                Building fast, responsive, and modern websites with cutting-edge
+                technologies and best practices.
+              </p>
+              <div class="progress-line"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- App Design -->
+        <div class="magnetic-wrap">
+          <div class="magnetic-area"></div>
+          <div class="service-card">
+            <div class="service-content">
+              <div class="service-number">04</div>
+              <div class="service-icon">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
+                  />
+                </svg>
+              </div>
+              <h3 class="service-title">App Design</h3>
+              <p class="service-description">
+                Designing innovative mobile applications that solve real
+                problems while delivering exceptional user experiences.
+              </p>
+              <div class="progress-line"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End services section ========== -->
+
+    <!-- ========== Start project section ========== -->
+    <section class="projects-section">
+      <svg
+        class="svg-top"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1000 100"
+        fill="#0a0a0a"
+      >
+        <path
+          d="M0 0v99.7C62 69 122.4 48.7 205 66c83.8 17.6 160.5 20.4 240-12 54-22 110-26 173-10a392.2 392.2 0 0 0 222-5c55-17 110.3-36.9 160-27.2V0H0Z"
+          opacity=".5"
+        ></path>
+        <path
+          d="M0 0v74.7C62 44 122.4 28.7 205 46c83.8 17.6 160.5 25.4 240-7 54-22 110-21 173-5 76.5 19.4 146.5 23.3 222 0 55-17 110.3-31.9 160-22.2V0H0Z"
+        ></path>
+      </svg>
+      <div class="section-header2">
+        <h2 class="section-title">Featured <span>Projects</span></h2>
+        <p class="section-description">
+          Explore my latest works and creative endeavors that showcase my skills
+          and passion for development.
+        </p>
+      </div>
+
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <!-- Project 1 -->
+          <div class="swiper-slide">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="images/p1.jpeg" alt="Project 1" />
+                <div class="project-overlay"></div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">E-Commerce Platform</h3>
+                <div class="project-tags">
+                  <span class="project-tag">React</span>
+                  <span class="project-tag">Node.js</span>
+                  <span class="project-tag">MongoDB</span>
+                </div>
+                <p class="project-description">
+                  A full-stack e-commerce platform with real-time inventory
+                  management and payment processing.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="swiper-slide">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="images/p2.jpeg" alt="Project 2" />
+                <div class="project-overlay"></div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Social Media Dashboard</h3>
+                <div class="project-tags">
+                  <span class="project-tag">Vue.js</span>
+                  <span class="project-tag">Firebase</span>
+                  <span class="project-tag">TailwindCSS</span>
+                </div>
+                <p class="project-description">
+                  Analytics dashboard for social media management with real-time
+                  data visualization.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="swiper-slide">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="images/p3.jpeg" alt="Project 3" />
+                <div class="project-overlay"></div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">AI Image Generator</h3>
+                <div class="project-tags">
+                  <span class="project-tag">Python</span>
+                  <span class="project-tag">TensorFlow</span>
+                  <span class="project-tag">Flask</span>
+                </div>
+                <p class="project-description">
+                  Deep learning-based image generation tool with custom style
+                  transfer capabilities.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="swiper-slide">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="images/p4.jpeg" alt="Project 4" />
+                <div class="project-overlay"></div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Real-time Chat App</h3>
+                <div class="project-tags">
+                  <span class="project-tag">Socket.io</span>
+                  <span class="project-tag">Express</span>
+                  <span class="project-tag">Redis</span>
+                </div>
+                <p class="project-description">
+                  Scalable real-time chat application with message encryption
+                  and file sharing.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-card">
+              <div class="project-image">
+                <img src="images/p4.jpeg" alt="Project 4" />
+                <div class="project-overlay"></div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">Real-time Chat App</h3>
+                <div class="project-tags">
+                  <span class="project-tag">Socket.io</span>
+                  <span class="project-tag">Express</span>
+                  <span class="project-tag">Redis</span>
+                </div>
+                <p class="project-description">
+                  Scalable real-time chat application with message encryption
+                  and file sharing.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+    <!-- ========== End project section ========== -->
+
+    <!-- ========== Start skills section  ========== -->
+    <section class="skills-section">
+      <svg
+        class="svg-bottom"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1000 100"
+        fill="#8a5cf651"
+      >
+        <path
+          d="M0 0v99.7C62 69 122.4 48.7 205 66c83.8 17.6 160.5 20.4 240-12 54-22 110-26 173-10a392.2 392.2 0 0 0 222-5c55-17 110.3-36.9 160-27.2V0H0Z"
+          opacity=".5"
+        ></path>
+        <path
+          d="M0 0v74.7C62 44 122.4 28.7 205 46c83.8 17.6 160.5 25.4 240-7 54-22 110-21 173-5 76.5 19.4 146.5 23.3 222 0 55-17 110.3-31.9 160-22.2V0H0Z"
+        ></path>
+      </svg>
+      <h2 class="section-title3">My <span>Skills</span></h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">⚡</div>
+          <h3 class="skill-title">Frontend Development</h3>
+          <p class="skill-description">
+            Creating responsive and interactive user interfaces using modern web
+            technologies and frameworks.
+          </p>
+          <div class="progress-bar">
+            <div class="progress" data-progress="90"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🎨</div>
+          <h3 class="skill-title">UI/UX Design</h3>
+          <p class="skill-description">
+            Designing intuitive and visually appealing user experiences with
+            attention to detail.
+          </p>
+          <div class="progress-bar">
+            <div class="progress" data-progress="85"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🚀</div>
+          <h3 class="skill-title">Backend Development</h3>
+          <p class="skill-description">
+            Building robust server-side applications and APIs using modern
+            technologies.
+          </p>
+          <div class="progress-bar">
+            <div class="progress" data-progress="80"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">📱</div>
+          <h3 class="skill-title">Mobile Development</h3>
+          <p class="skill-description">
+            Developing cross-platform mobile applications with native-like
+            performance.
+          </p>
+          <div class="progress-bar">
+            <div class="progress" data-progress="75"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">⚡</div>
+          <h3 class="skill-title">Frontend Development</h3>
+          <p class="skill-description">
+            Creating responsive and interactive user interfaces using modern web
+            technologies and frameworks.
+          </p>
+          <div class="progress-bar">
+            <div class="progress" data-progress="90"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🎨</div>
+          <h3 class="skill-title">UI/UX Design</h3>
+          <p class="skill-description">
+            Designing intuitive and visually appealing user experiences with
+            attention to detail.
+          </p>
+          <div class="progress-bar">
+            <div class="progress" data-progress="85"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🚀</div>
+          <h3 class="skill-title">Backend Development</h3>
+          <p class="skill-description">
+            Building robust server-side applications and APIs using modern
+            technologies.
+          </p>
+          <div class="progress-bar">
+            <div class="progress" data-progress="80"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">📱</div>
+          <h3 class="skill-title">Mobile Development</h3>
+          <p class="skill-description">
+            Developing cross-platform mobile applications with native-like
+            performance.
+          </p>
+          <div class="progress-bar">
+            <div class="progress" data-progress="75"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End skills section  ========== -->
+
+    <!-- ========== Start timeline section ========== -->
+    <section class="timeline-section">
+      <div class="timeline-container">
+        <!-- Experience Column -->
+        <div class="timeline-column">
+          <h2 class="section-title4"><i>💼</i> My Experience</h2>
+
+          <div class="timeline-card">
+            <div class="card-date">2022 - Present</div>
+            <h3 class="card-title">LEAD DEVELOPER</h3>
+            <p class="card-subtitle">Microsoft, London</p>
+          </div>
+
+          <div class="timeline-card">
+            <div class="card-date">2021 - 2022</div>
+            <h3 class="card-title">FULL STACK WEB DEVELOPER</h3>
+            <p class="card-subtitle">DevWorks, The Hive Company</p>
+          </div>
+
+          <div class="timeline-card">
+            <div class="card-date">2019 - 2021</div>
+            <h3 class="card-title">UI DESIGNER</h3>
+            <p class="card-subtitle">Waves of Life, Leeds</p>
+          </div>
+
+          <div class="timeline-card">
+            <div class="card-date">2018 - 2020</div>
+            <h3 class="card-title">JUNIOR GRAPHICS DESIGNER</h3>
+            <p class="card-subtitle">Creative Junction, Bristol</p>
+          </div>
+        </div>
+
+        <!-- Education Column -->
+        <div class="timeline-column">
+          <h2 class="section-title4"><i>🎓</i> My Education</h2>
+
+          <div class="timeline-card">
+            <div class="card-date">2020 - 2022</div>
+            <h3 class="card-title">PROGRAMMING COURSE</h3>
+            <p class="card-subtitle">Harvard University</p>
+          </div>
+
+          <div class="timeline-card">
+            <div class="card-date">2019 - 2020</div>
+            <h3 class="card-title">GRAPHIC DESIGN COURSE</h3>
+            <p class="card-subtitle">University of Cambridge</p>
+          </div>
+
+          <div class="timeline-card">
+            <div class="card-date">2018 - 2019</div>
+            <h3 class="card-title">WEB DESIGN COURSE</h3>
+            <p class="card-subtitle">University of California</p>
+          </div>
+
+          <div class="timeline-card">
+            <div class="card-date">2015 - 2017</div>
+            <h3 class="card-title">DESIGN & TECHNOLOGY</h3>
+            <p class="card-subtitle">Paradise Tech School</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End timeline section ========== -->
+
+    <!-- ========== Start client section  ========== -->
+    <section class="reviews-section">
+      <div class="section-header5">
+        <h2 class="section-title5">My Client's Stories</h2>
+        <p class="section-subtitle">
+          Real experiences & testimonials shared by my valued clients.
+        </p>
+      </div>
+
+      <div class="reviews-grid">
+        <!-- Review Card 1 -->
+        <div class="review-card">
+          <div class="glow"></div>
+          <div class="review-header">
+            <div class="client-image">
+              <img src="images/hyoseop.jpeg" alt="Client 1" />
+            </div>
+            <div class="client-info">
+              <h3 class="client-name">Kang tae Mu</h3>
+              <p class="client-position">CEO, Tech Solutions</p>
+            </div>
+          </div>
+          <div class="review-content">
+            <div class="review-icon">❝</div>
+            <p class="review-text">
+              "Working with this developer was an absolute pleasure. Their
+              attention to detail and creative solutions exceeded our
+              expectations."
+            </p>
+            <div class="review-rating">★★★★★</div>
+          </div>
+        </div>
+
+        <!-- Review Card 2 -->
+        <div class="review-card">
+          <div class="glow"></div>
+          <div class="review-header">
+            <div class="client-image">
+              <img src="images/jiwon.jpeg" alt="Client 2" />
+            </div>
+            <div class="client-info">
+              <h3 class="client-name">Sarah Johnson</h3>
+              <p class="client-position">Product Manager</p>
+            </div>
+          </div>
+          <div class="review-content">
+            <div class="review-icon">❝</div>
+            <p class="review-text">
+              "Incredible talent and professionalism. Delivered our project on
+              time and with exceptional quality. Highly recommended!"
+            </p>
+            <div class="review-rating">★★★★★</div>
+          </div>
+        </div>
+
+        <!-- Review Card 3 -->
+        <div class="review-card">
+          <div class="glow"></div>
+          <div class="review-header">
+            <div class="client-image">
+              <img src="images/Sejeong.jpeg" alt="Client 3" />
+            </div>
+            <div class="client-info">
+              <h3 class="client-name">Shin Hae Ri</h3>
+              <p class="client-position">Creative Director</p>
+            </div>
+          </div>
+          <div class="review-content">
+            <div class="review-icon">❝</div>
+            <p class="review-text">
+              "Outstanding work ethic and creative vision. Brought our ideas to
+              life in ways we couldn't have imagined."
+            </p>
+            <div class="review-rating">★★★★★</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End client section  ========== -->
+
+    <!-- ========== Start footer section ========== -->
+    <footer class="footer">
+      <div class="gradient-bg"></div>
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="footer-logo">USMAN</div>
+          <p class="footer-text">
+            Creating digital experiences that inspire and innovate.
+          </p>
+          <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <div class="footer-links">
+            <a href="#work">Work</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <p class="footer-text">
+            hello@yourwebsite.com<br />
+            +1 234 567 890<br />
+            Your Location
+          </p>
+        </div>
+      </div>
+    </footer>
+    <button class="scroll-top" aria-label="Scroll to top"></button>
+    <!-- ========== End footer section ========== -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
