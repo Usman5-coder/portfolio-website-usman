@@ -1187,7 +1187,6 @@ body {
 /***** clients info section *****/
 .reviews-section {
   padding: 100px 20px;
-  max-width: 1400px;
   margin: 0 auto;
   position: relative;
   overflow-x: hidden !important;
